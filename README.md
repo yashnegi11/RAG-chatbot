@@ -22,7 +22,7 @@ An interactive **Streamlit application** that allows users to upload multiple do
 
 ## 🖼️ Demo
 
-![Demo Screenrecording]([drive](https://1drv.ms/v/c/3cc4a635b7a8c761/Ebi1WvajKtJMil1UcodvmXgBEou-SBIDlV96j4fdojgRvA)) 
+watch demo here: [Demo Screenrecording](https://1drv.ms/v/c/3cc4a635b7a8c761/Ebi1WvajKtJMil1UcodvmXgBEou-SBIDlV96j4fdojgRvA)
 
 ---
 
