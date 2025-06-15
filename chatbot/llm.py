@@ -1,13 +1,12 @@
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_openai import ChatOpenAI
-from chatbot.config import api_key, LLM_BASE_URL, MODEL
  
 
-def chatmodel(docs,query):
+def chatmodel(docs,query,api_key):
     llm = ChatOpenAI(
-        base_url=LLM_BASE_URL,
+        base_url="https://openrouter.ai/api/v1",
         openai_api_key=api_key,
-        model=MODEL,
+        model="deepseek/deepseek-r1:free",
     )
 
     retrieved_context = "\n\n".join([doc.page_content for doc in docs])
