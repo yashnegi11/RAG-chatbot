@@ -20,9 +20,17 @@ An interactive **Streamlit application** that allows users to upload multiple do
 
 ---
 
-## 🖼️ Demo
+## 🌐 Live Demo
 
-watch demo here: [Demo Screenrecording](https://1drv.ms/v/c/3cc4a635b7a8c761/Ebi1WvajKtJMil1UcodvmXgBEou-SBIDlV96j4fdojgRvA)
+Try the app here:  
+👉 [Launch on Streamlit](https://rag-chatbot-p4h8isbncpu4ugctpxprvo.streamlit.app/)
+
+---
+
+## 🎥 Video Walkthrough
+
+Watch a short demo of how TalentScout works:  
+▶️ [Demo Video on Google Drive](https://drive.google.com/file/d/1_IRuWCn5AzvsihzNxX4_k-UyneEYl52a/view?usp=sharing)
 
 ---
 
@@ -44,7 +52,6 @@ chatbot/
 ├── app.py                     # Streamlit UI
 ├── chatbot/
 │   ├── __init__.py
-│   ├── config.py              # API keys and settings
 │   ├── load_pdf.py            # PDF loading and splitting
 │   ├── embedding.py           # Embedding and FAISS index 
 │   └── llm.py                 # Prompt and LLM response
@@ -76,14 +83,7 @@ chatbot/
    pip install -r requirements.txt
    ```
 
-4. **Set environment variables**
-
-   Create a `.env` file:
-   ```env
-   LLM_API_KEY=your_openrouter_api_key
-   ```
-
-5. **Run the app**
+4. **Run the app**
    ```bash
    streamlit run app.py
    ```
